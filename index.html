@@ -1,0 +1,136 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bootstrap Portfolio Build | Home</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+  <body>
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+
+
+    <div class="container-fluid text-center">
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h1>Hello, my name is Jaya Wijono</h1>
+            <p class="lead">I develop Aweseme web apps</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid filterable-portfolio">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-pills portfolio-filter">
+            <li class="portfolio-title">Filter by:</li>
+            <li role="presentation" class="active"><a href="#" data-filter="*">All</a></li>
+            <li role="presentation"><a href="#" data-filter=".rails">Rails</a></li>
+            <li role="presentation"><a href="#" data-filter=".sinatra">Sinatra</a></li>
+            <li role="presentation"><a href="#" data-filter=".backbone">Backbone</a></li>
+            <li role="presentation"><a href="#" data-filter=".misc">Misc</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="portfolio-items row">
+
+        <figure class="portfolio-item col-sm-4 item misc">
+          <a href="https://jayzz55.github.io/xvso">
+            <span id="xvso" class="img-responsive"></span>
+          </a>
+          <article class="post-excerpt">
+            <header>
+              <a href="https://jayzz55.github.io/xvso">
+                <h3>XVSO</h3>
+              </a>
+              <p class="post-meta">
+                Tic Tac Toe game with a twist!
+              </p>
+            </header>
+          </article>
+        </figure>
+
+        <figure class="portfolio-item col-sm-4 item backbone sinatra">
+          <a href="https://savvybudget.herokuapp.com">
+            <span id="savvy_budget" class="img-responsive"></span>
+          </a>
+          <article class="post-excerpt">
+            <header>
+              <a href="https://savvybudget.herokuapp.com">
+                <h3>Savvy Budget</h3>
+              </a>
+              <p class="post-meta">
+                Simple and easy to use budget tracking app.
+              </p>
+            </header>
+          </article>
+        </figure>
+
+        <figure class="portfolio-item col-sm-4 item rails">
+          <a href="http://savvy-mom.herokuapp.com">
+            <span id="savvy_mom" class="img-responsive"></span>
+          </a>
+          <article class="post-excerpt">
+            <header>
+              <a href="http://savvy-mom.herokuapp.com">
+                <h3>Savvy Mom</h3>
+              </a>
+              <p class="post-meta">
+                Help you find what's on special in your supermarket in Melbourne this week.
+              </p>
+            </header>
+          </article>
+        </figure>
+
+        <figure class="portfolio-item col-sm-4 item rails">
+          <a href="https://open-superlist.herokuapp.com/">
+            <span id="open_superlist" class="img-responsive"></span>
+          </a>
+          <article class="post-excerpt">
+            <header>
+              <a href="https://open-superlist.herokuapp.com/">
+                <h3>Open Superlist</h3>
+              </a>
+              <p class="post-meta">
+                A self-destructing to-do list to keep you focused on the things that really matter!
+              </p>
+            </header>
+          </article>
+        </figure>
+      </div>
+
+    </div>
+
+    <footer class="container-fluid site-footer">
+      <div class="row">
+        <div class="col-md-12">
+          <p>Thank you for getting in touch with me.</p>
+          <p>
+            <span class="glyphicon glyphicon-phone" aria-hidden="true"></span> +61-422-644-537
+          </p>
+          <p>
+            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> jayzzwijono@yahoo.com
+          </p>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/isotope/dist/isotope.pkgd.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
