@@ -242,7 +242,7 @@ a {
   margin-right: 0.5em;
 }
 
-#xvso,#savvy_budget,#savvy_mom, #open_superlist{
+#xvso,#savvy_budget,#savvy_mom, #open_superlist, #weight_tracker{
   width: 360px;
   height: 220px;
   background-image: url("http://i.imgur.com/cNBAjEe.png");
@@ -263,4 +263,6 @@ a {
   background-image: url("http://i.imgur.com/r63o6Ny.png");
 }
 
-
+#weight_tracker{
+  background-image: url("http://i.imgur.com/3hYIWW6.png");
+}
